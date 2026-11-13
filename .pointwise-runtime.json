@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": [
+    ["python3", "-I", "-m", "py_compile", "walcdc.py", "walcdc_fixtures.py", "verify.py", "demo_recovery.py"]
+  ],
+  "verify": ["python3", "-I", "verify.py"],
+  "demo": ["python3", "-I", "demo_recovery.py"]
+}
